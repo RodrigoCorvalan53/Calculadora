@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+</head>
+<body onload="init();">
+<table class="calculadora">
+        <tr>
+            <td colspan="4"> 
+                <span id="resultado"></span>
+            </td>
+        </tr><br>
+        <tr>
+            <td>
+                <button class="waves-effect waves-light btn" id="reset">AC</button>
+                <button class="waves-effect waves-light btn"></button>
+                <button class="waves-effect waves-light btn" id="div">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="waves-effect waves-light btn" id="siete">7</button>
+                <button class="waves-effect waves-light btn" id="ocho">8</button>
+                <button class="waves-effect waves-light btn" id="nueve">9</button>
+                <button class="waves-effect waves-light btn" id="multi">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="waves-effect waves-light btn" id="cuatro">4</button>
+            <button class="waves-effect waves-light btn" id="cinco">5</button>
+            <button class="waves-effect waves-light btn" id="seis">6</button>
+                <button class="waves-effect waves-light btn" id="menos">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="waves-effect waves-light btn" id="uno">1</button>
+                <button class="waves-effect waves-light btn" id="dos">2</button>
+                <button class="waves-effect waves-light btn" id="tres">3</button>
+                <button class="waves-effect waves-light btn" id="mas">+</button><br><br>
+                <button class="waves-effect waves-light btn" id="cero">0</button>
+                <button class="waves-effect waves-light btn" id="punto">.</button>
+                <button class="waves-effect waves-light btn" id="igual">=</button>
+            </td>
+        </tr> 
+    </table>
+    <script src="ejecutar.js"></script>
+</body>
+</html>
